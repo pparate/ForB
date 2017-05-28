@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Basics]">
+  <test name="InitialTest(failed)">
+    <classes>
+      <class name="testCases.VerifyLoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyLoginFunctionality"/>
+        </methods>
+      </class> <!-- testCases.VerifyLoginPage -->
+      <class name="testCases.VerifyHomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testHomePage"/>
+        </methods>
+      </class> <!-- testCases.VerifyHomePage -->
+    </classes>
+  </test> <!-- InitialTest(failed) -->
+</suite> <!-- Failed suite [Basics] -->
